@@ -1,0 +1,21 @@
+# Data files (do not commit dataset unless license/permission permits)
+data/*.csv
+
+# Model outputs and serialized artifacts
+results/*
+!results/.gitkeep
+*.joblib
+*.pkl
+
+# Python cache / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
